@@ -1,0 +1,16 @@
+name: CustomMaces
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+author: EnderDevelopment
+description: Six custom maces with unique powers and attack damage.
+commands:
+  custommace:
+    description: Gives a custom mace.
+    usage: /custommace <wood|stone|iron|diamond|netherite|infinity> [player]
+    aliases: [mace]
+    permission: custommaces.give
+permissions:
+  custommaces.give:
+    description: Allows players to give custom maces.
+    default: op
